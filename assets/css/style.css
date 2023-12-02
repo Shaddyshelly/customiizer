@@ -1559,16 +1559,16 @@ button[type=submit]:hover {
 }
 
 .O-button[type=submit] {
-  background: rgba(255, 255, 255, 0.3);
-  border: 1px solid orange;
+  background: rgba(255, 255, 255, 0.3) !important;
+  border: 1px solid orange !important;
   padding: 10px 24px;
-  color: #fff;
+  color: #fff !important;
   transition: 0.4s;
   border-radius: 100px;
 }
 
 .O-button[type=submit]:hover {
-  background: #5c6bc0;
+  background: #5c6bc0 !important; 
 }
 
 @keyframes animate-loading {
